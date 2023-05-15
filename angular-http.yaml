@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-angular-http
+  labels:
+    app: angular-pod
+spec:
+  containers:
+    - name: angular-container
+      image: uiuq/angular-http:0.5
+      ports:
+        - containerPort: 80
+     #envFrom:
+        #- configMapRef:
+         #   name: angular-configmap

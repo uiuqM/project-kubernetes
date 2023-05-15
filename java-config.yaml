@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: java-configmap
+data:
+  SPRING_DATASOURCE_URL: jdbc:postgresql://svc-postgresql:5432/postgres
+  SPRING_DATASOURCE_USERNAME: postgres
+  SPRING_DATASOURCE_PASSWORD: uiuq
+  SPRING_JPA_HIBERNATE_DDL_AUTO: update

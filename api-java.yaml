@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-api-java
+  labels:
+    app: api-pod
+spec:
+  containers:
+    - name: java-container
+      image: uiuq/api-teste-local:0.3
+      ports:
+        - containerPort: 8080
+      envFrom:
+        - configMapRef:
+            name: java-configmap
