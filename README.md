@@ -7,7 +7,12 @@ Kubernetes cluster config to build project nginx + angular + springboot + postgr
 [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/) </br>
 ### Assim:
 Basta executar o script de setup: </br>
-<code> chmod +x setup.sh </code> </br>
-<code> ./setup.sh </code>
-
+#### Permissão
+``` 
+chmod +x setup.sh
+```
+#### Execução
+```
+./setup.sh
+```
 
