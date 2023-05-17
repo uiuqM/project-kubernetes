@@ -9,10 +9,6 @@ fi
 
 kubectl apply -f ./
 
-ip=$(minikube ip)
+host=$(minikube service api-service --url)
 
-out=$(kubectl get svc | grep 80:)
-
-port=$(echo ${out} | awk '{print $5}' | cut -d':' -f2 | cut -d'/' -f1)
-
-echo "Pronto! acesse: http://${ip}:${port}"
+echo "Pronto! acesse: ${host}"
