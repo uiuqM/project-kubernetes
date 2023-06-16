@@ -3,6 +3,7 @@ Kubernetes cluster config to build project nginx + angular + springboot + postgr
 
 ## Como rodar na minha máquina?
 ### Cetifique-se de ter
+[Docker](https://docs.docker.com/engine/install/) </br>
 [minikube](https://minikube.sigs.k8s.io/docs/start/) </br>
 [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/) </br>
 ### Assim:
