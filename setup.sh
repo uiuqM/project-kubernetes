@@ -1,11 +1,7 @@
 #!/bin/bash
 
-minikube status > /dev/null 2>&1
-
-if [ $? -ne 0 ]; then
-  echo "Iniciando minikube..."
-  minikube start
-fi
+echo "Iniciando minikube..."
+minikube start
 
 kubectl apply -f ./
 
