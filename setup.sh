@@ -24,7 +24,7 @@ http {
     # Configuration specific to HTTP and affecting all virtual servers  
 
     server {
-        listen 80;
+        listen 8080;
         # configuration of HTTP virtual server 1       
         location /{
           proxy_pass ${host};
