@@ -1,5 +1,7 @@
 # project-kubernetes
 Kubernetes cluster config to build project nginx + angular + springboot + postgres.
+## Arquitetura
+![](https://github.com/uiuqM/project-kubernetes/assets/92444032/9a879c93-ce8e-4868-a8c9-47d5cefe032e)
 
 ## Como rodar na minha máquina?
 ### Cetifique-se de ter
